@@ -3,10 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration form</title>
+    <link rel="stylesheet" href="styelcss.css/stylesheetforform.css">
+    
 </head>
-<body>
-    <big>hii guys my name is abc if you don't know what is abc then search it on google what is  abc bloody how you don't know what is abc a:apple b:ball c:cat simple this is called abc okay if next time anyone ask you that what is abc then you what i say now okay hosiyar auddience</big>
+<body >
+    <h1>Welcome to LifeSolution</h1>
+    <br>
+    <br>
+    <h2>Registration Form</h2>
+    
+    
+    <label for="disclaimer"></label>
+
+    <div class="div1">
+        <fieldset class="fieldset1"> 
+            <legend><input type="text" name="name" id="disclaimer" placeholder=" !All mandetory fields marked as *" readonly size="30" >
+            </legend><br>
+            
+            <form action="index.html" method="get">
+                
+               Full Name: 
+               <input type="text" class="firstname" name="firstname" placeholder="First name*" required size="8"> 
+              <input type="text" class="lastname" name="lastname" placeholder="Last name" size="5">
+               <br><br>
+               Email Address:
+                <input type="email" class="email" name="email" placeholder="ex-demo@gmail.com*" required ><br><br>
+                 
+                Phone Number:
+                <input type="tel" name="name"  class="number" placeholder="Ex-0987612345*" required minlength="10" maxlength="10" pattern="/d{10}"><br><br>
+                
+                Birthday:
+                <input type="date" class="birthday" name="birthday" value="1990/01/01" min="1990-01-01" max="" >
+                <br><br>
+
+                Select Gender:
+                <input type="radio" class="radio" id="male" name="gender" required checked>
+                <label for="male">Male</label>
+                <input type="radio" class="radio" id="female" name="gender" required >
+                <label for="female" >Female</label><br><br>
+
+                Social profile:
+                <input type="url" name="link" id="" class="sociallink" placeholder="insert valid link of any platform*" required size="25%"><br><br>
+
+                Address: <br>
+                <input type="text" class="name2" name="street" placeholder="Name" size="22%" required >
+                <input type="number" class="number2" placeholder="10-digit mobile number" size="25%" required ><br><br>
+                
+                <input type="text" class="pincode" name="pincode" pattern="/d{6}" placeholder="Pincode" required>
+                <input type="text" class="localty" name="localty" placeholder="Localty" required>
+                <br><br>
+
+                <textarea name="street" id="street" style="width: 350px; height: 65px; padding: 10px; font-size: 16px; color: #888;" placeholder="Street and Area" required maxlength="100"></textarea>
+                <br><br>
+
+                <input type="text" class="district" name="city/district/town" placeholder="city/district/town" required>
+
+                <select name="state" id="state" width="75px" >State
+                    <option value="#">--State--</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+                <button>submit</button>
+
+            
+            
+            </form>
+        </fieldset>
+    </div>
+
 </body>
 </html>
-guys you know i,m learning codepushing technich of git and github

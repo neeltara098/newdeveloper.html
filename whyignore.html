@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Box Placeholder</title>
+  <style>
+    .select-placeholder {
+      color: #888; /* Placeholder text color */
+    }
+  </style>
 </head>
 <body>
-    hii guys my name is abc
+  <h1>Select Box with Placeholder</h1>
+  <form>
+    <label for="options">Choose an option:</label>
+    <select id="options" name="options" required>
+      <option value="" disabled selected hidden class="select-placeholder">Select an option</option>
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+    </select>
+    <input type="submit" value="Submit">
+  </form>
 </body>
 </html>
