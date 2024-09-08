@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="styelcss.css/stylesheetforform.css">
     
 </head>
-<body >
+<body>
     <h1>Welcome to LifeSolution</h1>
     <br>
     <br>
-    <h2>Registration Form</h2>
+    <h2 class="">Registration Form</h2>
     
     
     <label for="disclaimer"></label>
@@ -21,28 +21,29 @@
             <legend><input type="text" name="name" id="disclaimer" placeholder=" !All mandetory fields marked as *" readonly size="30" >
             </legend><br>
             
-            <form action="index.html" method="get">
+            <form action="form_nextstep.html" method="get">
                 
                Full Name: 
                <input type="text" class="firstname" name="firstname" placeholder="First name*" required size="8"> 
               <input type="text" class="lastname" name="lastname" placeholder="Last name" size="5">
                <br><br>
-               Email Address:
+                Email Address:
                 <input type="email" class="email" name="email" placeholder="ex-demo@gmail.com*" required ><br><br>
                  
                 Phone Number:
-                <input type="tel" name="name"  class="number" placeholder="Ex-0987612345*" required minlength="10" maxlength="10" pattern="/d{10}"><br><br>
+                <input type="tel" name="name"  class="number" placeholder="Ex-0987612345*" required minlength="10" maxlength="10" pattern="/d{*}"><br><br>
                 
-                Birthday:
-                <input type="date" class="birthday" name="birthday" value="1990/01/01" min="1990-01-01" max="" >
-                <br><br>
-
+                
                 Select Gender:
                 <input type="radio" class="radio" id="male" name="gender" required checked>
                 <label for="male">Male</label>
                 <input type="radio" class="radio" id="female" name="gender" required >
                 <label for="female" >Female</label><br><br>
-
+                
+                Birth date:
+                <input type="date" class="birthday" name="birthday" value="**-**-****" min="1990-01-01" required max="2023-01-01">
+                <br><br>
+                
                 Social profile:
                 <input type="url" name="link" id="" class="sociallink" placeholder="insert valid link of any platform*" required size="25%"><br><br>
 
@@ -50,7 +51,7 @@
                 <input type="text" class="name2" name="street" placeholder="Name" size="22%" required >
                 <input type="number" class="number2" placeholder="10-digit mobile number" size="25%" required ><br><br>
                 
-                <input type="text" class="pincode" name="pincode" pattern="/d{6}" placeholder="Pincode" required>
+                <input type="tel" class="pincode" name="pincode" pattern="/d{*}" placeholder="Pincode" required>
                 <input type="text" class="localty" name="localty" placeholder="Localty" required>
                 <br><br>
 
@@ -61,62 +62,50 @@
 
                 <select name="state" id="state" width="75px" >State
                     <option value="#">--State--</option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
+                    <option value="andhrapradesh">Andhra Pradesh</option>
+                    <option value=" uttarpradesh">Uttar Pradesh</option>
+                    <option value="madhyapradesh">Madhya pradesh</option>
+                    <option value="gujrat">Gujrat</option>
+                    <option value="amroli">Amroli</option>
+                    <option value="diharganj">Diharganj</option>
+                    <option value="choukapur">Choukapur</option>
+                    <option value="angaaar">Angaar</option>
+                    <option value="bihar">Bihar</option>
+                    <option value="barroli">Barroli</option>
+                    <option value="ajamgarh">Ajamgarh</option>
+                    <option value="sirmoure">Sirmour</option>
+                    <option value="lahore">Lahore</option>
+                    <option value="ajmer">Ajmer</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="banglore">Banglore</option>
+                    <option value="karnataka">Karnataka</option>
+                    <option value="ahmedabad">Ahmedabad</option>
+                    <option value="sikandrabad">Sikandarabad</option>
+                    <option value="gajiabad">Gajiabad</option>
+                   
                 </select>
-                <button>submit</button>
+               <br><br>
 
-            
+               <input type="address" class="address1" name="address" placeholder="Landmark (optional)" maxlength="30">
+               <input type="tel" class="tel1" name="phone"  placeholder="Alternate Phone (optional)" pattern="/d{*}" minlength="10" maxlength="10">
+
+              <br><br>address type:
+
+              <input type="radio" name="home" id="home1" class="home" value="home">
+              <label for="home1">Home</label>
+              <input type="radio" name="home" id="work1" class="home" value="work">
+              <label for="work1">Work</label>
+
+              <br><br>
+
+              <input type="checkbox" name="whatsappupdate" id="whatsapp" value="whatsappupdate">
+              <label for="whatsapp">Want to receives updates in whatsapp</label><br>
+              
+              <br><br> 
+
+              <button type="reset">Reset</button>
+              <button>---></button>
+              
             
             </form>
         </fieldset>
