@@ -6,10 +6,116 @@ body {
 h1 {
     text-align: center;
     font-size: 20px;
-    color: lightgreen;
+    color: blue;
+}
+.logintittle {
+    text-align: center;
+    font-size: 20px;
+    color: yellow;
+}
+.forgetwelcome{
+    text-align: center;
+    font-size: 20px;
+    color: violet;
+}
+.forgetwelcomeback {
+    text-align: center;
+    font-size: 20px;
+    color: blueviolet;
+}
+.loginback {
+    text-align: center;
+    font-size: 20px;
+    color: yellowgreen;
 }
 
 h1{
-    padding: 5px;
+    padding: 3px;
     background-color: black;
 }
+
+h2{
+    padding-top: 50px;
+    text-align: center;
+}
+.welcomeset
+{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
+
+
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+buttonn {
+    margin: 5px;
+    /* this is used for giving a distance between two options */
+    padding: 10px 50px;
+    /* this is used as height width like as */
+    
+    border-radius: 1000px;
+    /* this is for giving a best shape to your buttom border */
+    background-color: red;
+    /* this is for changing background color of submit button */
+    color: blue;
+    /* this is for changing text color of submit button */
+    cursor: pointer;
+    /* this is for changing cursor status if put progress then if you move your cursor to submit button then this will show progress icon */
+}
+
+button:hover {
+    background-color: green; 
+    /* this is for changing backround color of clicking */
+}
+/* @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+    {background-color: blue;}
+    to {background-color:  pink;}
+    to {background-color: green;}
+    :-moz-any-link
+}
+
+.welcome-container {
+    animation-name: example;
+    animation-duration: 60s;
+} this all tag are used to give animation for any element you want*/
+
+.loginhead{
+    text-align: center;
+    border-style: dotted;
+}
+ .forloginf{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 50%;
+ }
+ 
+ .forforget{
+    text-align: center;
+    border-style: dotted;
+ }
+ .welcomebacktittle
+
+    { 
+        text-align: center;
+        border-style: dotted
+        ;
+        
+    }
+    .loginbackbutton {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        margin: autos;
+    }

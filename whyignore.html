@@ -1,30 +1,25 @@
-<form action="/submit_form" method="post">
-  <label for="username">Username:</label>
-  <input type="text" id="username" name="username" required><br><br>
-  
-  <label for="password">Password:</label>
-  <input type="password" id="password" name="password" required><br><br>
-  
-  <label for="confirm_password">Confirm Password:</label>
-  <input type="password" id="confirm_password" name="confirm_password" required><br><br>
-  
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required><br><br>
-  
-  <label for="phone">Phone Number:</label>
-  <input type="tel" id="phone" name="phone"><br><br>
-  
-  <label for="security_question">Security Question:</label>
-  <select id="security_question" name="security_question">
-    <option value="pet_name">What was the name of your first pet?</option>
-    <option value="favorite_book">What is your favorite book?</option>
-    <option value="elementary_school">What was the name of your elementary school?</option>
-    <option value="mother_maiden_name">What is your mother's maiden name?</option>
-    <option value="first_car">What was the make and model of your first car?</option>
-  </select><br><br>
-  
-  <label for="security_answer">Answer:</label>
-  <input type="text" id="security_answer" name="security_answer" required><br><br>
-  
-  <input type="submit" value="Submit">
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="welcome-container">
+        <h1>Welcome to Our Shop!</h1>
+        <p>
+            Dear Valued Customer,<br><br>
+            We are thrilled to welcome you to our online store! At [Your Shop Name], we are committed to providing you with the best shopping experience possible. Our team has carefully curated a wide range of products to meet all your needs and preferences. Whether you're looking for the latest fashion trends, high-quality electronics, or everyday essentials, we've got you covered.<br><br>
+            Our mission is to offer you exceptional service, unbeatable prices, and a seamless shopping experience. We believe that shopping should be enjoyable and stress-free, and we strive to make that a reality for you. Our user-friendly website, secure payment options, and fast shipping are just a few of the ways we ensure your satisfaction.<br><br>
+            As a token of our appreciation, we invite you to explore our exclusive offers and promotions. Don't forget to sign up for our newsletter to stay updated on the latest arrivals and special deals. If you have any questions or need assistance, our dedicated customer support team is here to help.<br><br>
+            Thank you for choosing [Your Shop Name]. We look forward to serving you and making your shopping experience truly exceptional.<br><br>
+            Happy Shopping!<br>
+            The [Your Shop Name] Team
+        </p>
+        <button onclick="location.href='login.html'">Login</button>
+        <button onclick="location.href='signup.html'">Sign Up</button>
+    </div>
+</body>
+</html>

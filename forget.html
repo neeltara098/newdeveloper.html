@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forget password</title>
+    <link rel="stylesheet" href="styelcss.css/stylefnext.css">
+</head>
+<body>
+    <h1 class="forgetwelcome">Welcome to LifeSolution Pvt. Ltd. Global</h1>
+    <h2 class="forforgeth2">Forget  password using account details.</h2>
+    <br><br>
+    <fieldset class="forloginf">
+        <legend>
+            <input type="text" class="forforget" name="forforget" placeholder="Enter your account details to forget your password" size="45" readonly>
+        </legend> <br>
+    
+            <form action="#" method="get">
+                Full Name:
+                <input type="text" class="loginnamefirst" name="forgetname" placeholder="First Name" required size="8"> 
+
+                <input type="text" class="loginnamelast" name="forgetname" placeholder="Last Name" required size="8"> <br><br>
+
+
+                Verification type:
+                <input type="radio" name="verification" id="forforgetemail" value="forgetemail" required> 
+                <label for="forforgetemail">Email</label>
+                <input type="radio" name="verification" id="forforgetphone" value="forgetphone" required>
+                <label for="forforgetphone">Phone</label> <br><br>
+
+                <label for="verificationinput">Email/phone:</label>
+                <input type="text" id="verificationinput" name="email/phone" placeholder="Enter your email or phone" required><br><br>
+                
+                <label for="verificationinputotp">Enter otp:</label>
+                <input type="tel" id="verificationinputotp" name="email/phone" placeholder="6-digit otp" required size="8" minlength="6" maxlength="6" > <br><br>
+
+                <button onclick="location.href='#'">Next</button>
+
+
+
+
+            
+            </form>
+        </fieldset>
+</body>
+</html>
