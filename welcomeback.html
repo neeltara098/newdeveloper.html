@@ -1,50 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>welcome back</title>
-    <link rel="stylesheet" href="styelcss.css/stylefnext.css">
-
-</head>
-<body>
-    <h1 class=" forgetwelcomeback">Welcome to LifeSolution Pvt. Ltd. Global</h1>
+    <link rel="stylesheet" href="styelcss.css/stylefnext.css" />
+  </head>
+  <body>
+    <!-- <h1 class="forgetwelcomeback">Welcome to LifeSolution Pvt. Ltd. Global</h1> -->
     <h2>Welcome back to your account:)</h2>
 
-    
     <fieldset class="forloginf">
-        <legend>
-            <input type="text" class="welcomebacktittle" name="welcomebacktittle" placeholder="let's create your password again!" size="28" readonly > 
-
-        </legend><br>
+      <legend>
+        <input
+          type="text"
+          class="welcomebacktittle"
+          name="welcomebacktittle"
+          placeholder="let's create your password again!"
+          size="28"
+          readonly
+        />
+      </legend>
+      <br />
+      <form action="loginback.html" method="get">
         <label for="passforagain">Set Password:</label>
-        <input type="password" id="passforagain" name="passforagain" placeholder="Ex-!@Demopassagain#245"><br><br>
-
+        <input
+          type="password"
+          id="passforagain"
+          name="passforagain"
+          placeholder="Ex-!@Demopassagain#245"
+        /><br /><br />
 
         <label for="passforagain2">Confirm password:</label>
 
-        <input type="password" id="passforagain" name="passforagain" placeholder="!@Demopassagain#245"> <br><br>
+        <input
+          type="password"
+          id="passforagain"
+          name="passforagain"
+          placeholder="!@Demopassagain#245"
+        />
+        <br /><br />
 
-        security_question: <br>
+        security_question: <br />
         <select
-        name="security_question"
-        id="security_question"
-        class="loginanswer"
-        
-      >
-        <option value="petname">Name of your first pet?</option>
-        <option value="schoolname">Name of your last school?</option>
-        <option value="sistername">Father/spouse name?</option>
-        <option value="bossname">Your first boss name?</option>
-        <option value="selfkey">Tell your self keygen</option>
-      </select>
-        <input type="text" class="loginanswers" name="loginanswers" placeholder="input your answer"  maxlength="30"> <br><br>
+          name="security_question"
+          id="security_question"
+          class="loginanswer"
+        >
+          <option value="petname">Name of your first pet?</option>
+          <option value="schoolname">Name of your last school?</option>
+          <option value="sistername">Father/spouse name?</option>
+          <option value="bossname">Your first boss name?</option>
+          <option value="selfkey">Tell your self keygen</option>
+        </select>
+        <input
+          type="text"
+          class="loginanswers"
+          name="loginanswers"
+          placeholder="input your answer"
+          maxlength="30"
+        />
+        <br /><br />
 
-        <button onclick="location.href='#'" >Continue</button>
-    
+        <button>Continue</button>
+      </form>
     </fieldset>
-
-
-
-</body>
+  </body>
 </html>

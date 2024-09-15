@@ -1,66 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login page</title> 
-    <link rel="stylesheet" href="styelcss.css/stylefnext.css">
-</head>
-<body>
-     
-    <h1 class="logintittle">Welcome to LifeSolution Pvt. Ltd. Global</h1>
-    <h2>Welcome Back! we are happy to see you again.</h2>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link rel="stylesheet" href="styelcss.css/stylefnext.css" />
+  </head>
+  <body>
+    <!-- <h1 class="logintittle">Welcome to LifeSolution Pvt. Ltd. Global</h1> -->
+    <h2>Welcome! we are happy to see you At our website</h2>
+
     <fieldset class="forloginf">
-        <legend>
-             <input type="text" class="loginhead" name="loginhead" placeholder="Enter your username and password to continue" size="40" readonly>
-         </legend> <br>
-         
-         <form action="#" method="get">
-            Username:
-            <input type="text" class="userid" name="userid" placeholder="Username/email/phone" required maxlength="20" minlength="6"> <br><br>
+      <legend>
+        <input
+          type="text"
+          class="loginhead"
+          name="loginhead"
+          placeholder="Enter your username and password to continue"
+          size="40"
+          readonly
+        />
+      </legend>
+      <br />
 
-            Password:
-            <input type="password" name="loginpass" class="loginpass" placeholder="Enter your password"  minlength="8" maxlength="15">
+      <form action="index.html" method="get" target="_main">
+        Username:
+        <input
+          type="text"
+          class="userid"
+          name="userid"
+          placeholder="Username/email/phone"
+          required
+          maxlength="20"
+          minlength="6"
+        />
+        <br /><br />
 
-            <br><br>
-            security_question: <br>
-            <select
-            name="security_question"
-            id="security_question"
-            class="loginanswer"
-            
-          >
-            <option value="petname">Name of your first pet?</option>
-            <option value="schoolname">Name of your last school?</option>
-            <option value="sistername">Father/spouse name?</option>
-            <option value="bossname">Your first boss name?</option>
-            <option value="selfkey">Tell your self keygen</option>
-          </select>
-            <input type="text" class="loginanswers" name="loginanswers" placeholder="input your answer"  maxlength="30"> <br><br>
+        Password:
+        <input
+          type="password"
+          name="loginpass"
+          class="loginpass"
+          placeholder="Enter your password"
+          minlength="8"
+          maxlength="15"
+          required
+        />
 
-            <button onclick="location.href='#'">Forget password</button>
-            <button onclick="location.href='#'">Login</button>
-
-         </form>
-
-
-
-
-     </fieldset>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
+        <br /><br />
+        security_question: <br />
+        <select
+          name="security_question"
+          id="security_question"
+          class="loginanswer"
+        >
+          <option value="petname">Name of your first pet?</option>
+          <option value="schoolname">Name of your last school?</option>
+          <option value="sistername">Father/spouse name?</option>
+          <option value="bossname">Your first boss name?</option>
+          <option value="selfkey">Tell your self keygen</option>
+        </select>
+        <input
+          type="text"
+          class="loginanswers"
+          name="loginanswers"
+          placeholder="input your answer"
+          maxlength="30"
+          required
+        />
+        <br /><br />
+            <button onclick="location.href='forget.html'">Forget password</button>
+            <button>Login</button>
+      </form>
+    </fieldset>
+  </body>
 </html>
