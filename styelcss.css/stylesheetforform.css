@@ -23,24 +23,18 @@ h1 {
   border-color: blueviolet;
   padding-block-start: 5px;
   /* paddin block start this is for setting text up or down */
-
 }
-
- 
 
 h1 {
   padding: 5px;
   background-color: black;
-
 }
 
-.h1paddinforhome{
+.h1paddinforhome {
   background-color: black;
   border-radius: 50px;
   height: 100px;
 }
-
-
 
 p {
   padding: 5px;
@@ -96,7 +90,7 @@ section h5 {
   margin: 40px;
 }
 
-footer {
+/* footer {
   background-color: #333;
   overflow: hidden;
 }
@@ -107,7 +101,8 @@ footer a {
   text-align: center;
   float: left;
   color: white;
-}
+} */
+
 form {
   text-align: center;
   background-color: white;
@@ -147,6 +142,8 @@ aside {
   /* background-color: green;  */
   /* this is for giving colour to field backround */
   animation: infinite;
+ text-align: center;
+ border: hidden;
 }
 .streetandarea {
   width: 350px;
@@ -196,193 +193,138 @@ aside {
   size: 1500px;
 }
 
-  .forhome{
+.forhome {
+  padding: 0%;
+  border-radius: 1200%;
+  width: 1211px;
+  height: auto;
+  display: ruby-base;
+}
 
-    padding: 0%;
-    border-radius: 1200%;
-    width: 1211px;
-    height: auto;
-    display: ruby-base;
-
-  }
-
-    .forhomesetlogin 
-{
-
+.forhomesetlogin {
   text-align: left;
   margin: auto;
   /* set margin auto then write margin left or right as per your choice */
   margin-right: 45px;
   display: block;
   border-radius: 45px;
-  
+
   size: 1%;
-
-
-
 }
-.cforlife
-{
+.cforlife {
   color: red;
   margin: auto;
-  
 }
-.cforpvt
-  {
-    color: green;
-  }
-.cforltd{
+.cforpvt {
+  color: green;
+}
+.cforltd {
   color: blue;
   margin: auto;
-  
-  
 }
-.forheadd{
-  
-  border-style: dashed; 
-  border-left: hidden
-  ;
+.forheadd {
+  border-style: dashed;
+  border-left: hidden;
   border-right: hidden;
-  border-color: blue
-  ;
+  border-color: blue;
   color: cyan;
-  background-color: red;
-  
+  /* background-color: red; */
+  background-image: url(/backgroundimage.jpeg);
 }
-.ffornav{
+.ffornav {
   width: 100%;
   text-align: center;
   border-left: hidden;
   border-right: hidden;
   border-top: hidden;
-   padding: 15px; 
-   font-weight: 500; 
-   font-size: large; 
-   font-stretch: extra-expanded;
+  padding: 15px;
+  font-weight: 500;
+  font-size: large;
+  font-stretch: extra-expanded;
   /* font this tag is used to custmization of text */
-
-  
-  
-  
-  
- 
-  
+  background-color: chartreuse;
 }
 
-
- .nav2
-{
-      margin: auto;
-      margin-right: 5%;
-      
-
-
-}
-
-
-
-.nav3
-{
-
+.nav2 {
   margin: auto;
   margin-right: 5%;
 }
 
-
-
-.nav4
-
-{
-  margin: auto;
-  margin-right: 5% ;
-  
-}
-
-.nav5
-{
+.nav3 {
   margin: auto;
   margin-right: 5%;
 }
 
-
-.nav6
-
-{
+.nav4 {
   margin: auto;
   margin-right: 5%;
-  
 }
 
-.nav7{
-
-  margin: auto;
- 
-
-} 
- .nav1 {
-   
+.nav5 {
   margin: auto;
   margin-right: 5%;
+}
 
+.nav6 {
+  margin: auto;
+  margin-right: 5%;
+}
 
+.nav7 {
+  margin: auto;
+}
+.nav1 {
+  margin: auto;
+  margin-right: 5%;
+}
 
-
- }
- 
- .forpricef{
+.forpricef {
   width: 50%;
- text-align: center;
-display: block; 
-margin: auto;
-align-content: center;
-
- }
-
-.pricechartstittle{
-
   text-align: center;
-}
-
-.tablefors{
-  text-align: center;
-  display: block
-  ;
+  display: block;
   margin: auto;
-
+  align-content: center;
 }
 
-table{
-   background-color: aliceblue;
-   border-collapse: collapse;
-   width: 100%;
-   border-style: dashed;
-   border-color: red;
-   vertical-align: middle;
-
+.pricechartstittle {
+  text-align: center;
 }
 
-th,td{
- 
+.tablefors {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+table {
+  background-color: aliceblue;
+  border-collapse: collapse;
+  width: 100%;
+  border-style: dashed;
+  border-color: red;
+  vertical-align: middle;
+}
+
+th,
+td {
   border: 1px solid black;
   padding: 10px;
   border-style: dashed;
-  border-top-color: green ;
+  border-top-color: green;
 
-/* border: this attribute is used to give border in any elements  like table border* */
+  /* border: this attribute is used to give border in any elements  like table border* */
+}
 
-} 
-
-th{
+th {
   background-color: yellow;
 }
-td{
+td {
   background-color: snow;
-  
 }
-tr{
+tr {
   border-color: green;
 }
- .sundramkabutton{
+.sundramkabutton {
   text-align: center;
   display: block;
   margin: auto;
@@ -391,53 +333,295 @@ tr{
   border-radius: 11px;
   border-style: dashed;
   border-top: hidden;
+}
 
- }
-
-
- 
-
- /* .forimg{
+/* .forimg{
 
   align-items: center;
   text-align: center;
   border: hidden;
  } */
- .reviewheading{
-  border: 3px solid red;
-  color: skyblue
-  ;
-  background-color: aliceblue;
-  width: none;
-  float: none;
- }
- .imageone{
- border: 2px solid blue
- ;
- width: 35%;
- text-align: center;
- }
 
-
-.ratingcomment{
-  width: 40%;
-  border: 3px solid black
-  ;
-  float: left;
-  font-weight: 600;
-  font-size: 25px;
-}
-
-
-div{
-  float: left;
+div {
+  border: 3px solid black;
 }
 @media (max-width: 600px) {
   #reviews {
-      padding: 10px;
+    padding: 10px;
   }
 
   .review {
-      padding: 5px 0;
+    padding: 5px 0;
   }
+}
+
+.vinod {
+  border: 1px solid blue;
+  border: hidden;
+  /* margin-left: 16%; */
+  /* margin-right: 16%; */
+  background-color: aliceblue;
+  padding: 15px;
+
+  color: yellow;
+
+  background-image: url(/backgroundimage.jpeg);
+  font-size: larger;
+}
+.gujrat {
+  float: right;
+  font-weight: 500;
+  color: green;
+  font-size: large;
+}
+.vinodcomment {
+  text-align: left;
+  background-color: skyblue;
+  font-style: italic;
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: url(/backgroundimage.jpeg);
+  color: springgreen;
+}
+
+.newreview {
+  text-align: center;
+  width: 50%;
+  margin-left: 455px;
+}
+
+.f.reviews {
+  background-image: url(/backgroundimage.jpeg);
+}
+
+.reviarea {
+  border: 1px solid red;
+  width: 600px;
+  margin-right: 0px;
+  padding-right: 0%;
+
+  float: left;
+}
+
+.idrevi {
+  width: 100%;
+}
+
+.idi {
+  text-align: left;
+  background-color: aliceblue;
+
+  font-size: larger;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 288px;
+  margin-left: 0px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  /* Overflow hidden this is used to hide scroll bar side bar  */
+}
+
+.diyintoself {
+  border-radius: 11px;
+  padding: 11px;
+  margin: 11px;
+  margin-left: 0px;
+  /* background-color: saddlebrown; */
+  color: black;
+  background-image: red;
+  cursor: progress;
+  border-color: gray;
+  background-color: aliceblue;
+}
+.certificatehead {
+  margin-top: 20px;
+}
+
+.controlcertificate {
+  background-color: blueviolet;
+}
+
+.certificates-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* display.flex flex.wrap this property is used to create a responsivness on any element you want */
+  justify-content: space-around;
+  /* This property is used to adjust elemenst on based to available sizes as per display resolution */
+  flex-grow: 1 1;
+  border: hidden;
+  overflow: hidden;
+  /* background-color: aliceblue; */
+  background-image: url(/backgroundimage.jpeg);
+}
+
+.imageone {
+  width: 300px;
+  margin: 2%;
+  background-color: pink;
+  border: hidden;
+  overflow: hidden;
+}
+
+.certificatenames {
+  font-weight: 500;
+  font-size: large;
+  color: blue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: red;
+}
+
+.footernames {
+  border: 3px solid red;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: large;
+  text-align: left;
+  list-style: none;
+  border: hidden;
+}
+
+.footerchecks {
+  border: 3px solid blue;
+  font-weight: 500;
+  list-style: none;
+  text-align: left;
+  margin: 5px;
+  border: hidden;
+}
+
+.footerheads {
+  border: 3px solid green;
+  border: hidden;
+}
+
+.starting {
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footername {
+  text-align: center;
+  background-color: gray;
+}
+
+.declarationhr {
+  border: 3px solid red;
+  background-color: blueviolet;
+}
+
+.youareundermycontrol {
+  background-image: url(/backgroundimage.jpeg);
+}
+
+.controlnamepara {
+  text-align: left;
+  font-weight: 300;
+  font-size: larger;
+  font-family: cursive;
+  background-image: url(/backgroundimage.jpeg);
+  /* background-color: tomato; */
+  color: lightyellow;
+}
+
+.namecontrolproduct {
+  font-weight: 400;
+  text-align: center;
+  color: yellow;
+  font-size: x-large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 40px;
+  list-style: none;
+}
+
+.controlsee {
+  color: red;
+}
+
+.controlnone {
+  list-style-type: disc;
+  color: crimson;
+}
+
+.controlnameparaa {
+  text-align: left;
+  font-weight: 300;
+  font-size: larger;
+  font-family: cursive;
+  background-image: url(/backgroundimage.jpeg);
+  /* background-color: tomato; */
+  color: yellowgreen;
+}
+
+.controlcustomer {
+  background-color: blueviolet;
+  margin-top: 0px;
+}
+
+.controlproduct {
+  background-color: blueviolet;
+  border: 1px solid blueviolet;
+}
+
+.controlwelcome{
+  color: slateblue;
+}
+
+.controlnameregistration{
+  background-color: blueviolet;
+}
+
+.div1{
+  background-image: url(/backgroundimage.jpeg);
+  border: hidden;
+}
+
+.controlnameform{
+  border: 4px solid red;
+  text-align: center;
+}
+
+.controlnameforms{
+  background-image: url(/backgroundimage.jpeg);
+  color: gold;
+  font-size: larger;
+  text-align: center;
+  margin-top: none;
+  border: hidden;
+  
+}
+
+.controlnamenames{
+  background-color:blanchedalmond;
+  color: red;
+  font-size: larger;
+  border: hidden;
+  width: auto;
+}
+
+.fieldset1{
+  border: 4px solid red;
+  width: 100%;
+  text-align: left;
+  border: hidden;
+}
+
+
+.controlnamereset{
+  padding: 10px;
+  width: 100px;
+  border-radius: 9px;
+  background-color: wheat;
+  margin: 20px;
+}
+
+.controlnameloginback{
+  background-image: url(/backgroundimage.jpeg);
+  text-align: center;
+  border: hidden;
 }

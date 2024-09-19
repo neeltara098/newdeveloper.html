@@ -4,48 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>welcome back</title>
-    <link rel="stylesheet" href="styelcss.css/stylefnext.css" />
+    <link rel="stylesheet" href="styelcss.css/stylesheetforform.css" />
   </head>
-  <body>
+  <body background="/backgroundimage.jpeg">
     <!-- <h1 class="forgetwelcomeback">Welcome to LifeSolution Pvt. Ltd. Global</h1> -->
-    <h2>Welcome back to your account:)</h2>
-
-    <fieldset class="forloginf">
-      <legend>
-        <input
-          type="text"
-          class="welcomebacktittle"
-          name="welcomebacktittle"
-          placeholder="let's create your password again!"
-          size="28"
-          readonly
-        />
-      </legend>
-      <br />
-      <form action="loginback.html" method="get">
+    <div class="controlnameregistration"><h2>Welcome back to your account:)</h2></div>
+<div class="div1">
+    <fieldset class="fieldset1">
+      
+      <form action="loginback.html" method="get" class="controlnameforms">
         <label for="passforagain">Set Password:</label>
         <input
           type="password"
           id="passforagain"
           name="passforagain"
-          placeholder="Ex-!@Demopassagain#245"
+          placeholder="create password *"
+          class="controlnamenames"
+          size="15"
+          required
         /><br /><br />
 
         <label for="passforagain2">Confirm password:</label>
 
         <input
+        class="controlnamenames"
+        size="13"
           type="password"
           id="passforagain"
           name="passforagain"
-          placeholder="!@Demopassagain#245"
+          placeholder="confirm password*"
+          required
         />
         <br /><br />
 
-        security_question: <br />
+       Reset security_question: <br />
         <select
           name="security_question"
           id="security_question"
-          class="loginanswer"
+          class="controlnamenames"
         >
           <option value="petname">Name of your first pet?</option>
           <option value="schoolname">Name of your last school?</option>
@@ -53,17 +49,21 @@
           <option value="bossname">Your first boss name?</option>
           <option value="selfkey">Tell your self keygen</option>
         </select>
+       <br>
         <input
           type="text"
-          class="loginanswers"
+          class="controlnamenames"
           name="loginanswers"
           placeholder="input your answer"
           maxlength="30"
+          required
+          
         />
         <br /><br />
 
-        <button>Continue</button>
+        <button class="controlnamereset">Continue</button>
       </form>
     </fieldset>
+</div>
   </body>
 </html>

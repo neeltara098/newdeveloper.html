@@ -1,120 +1,62 @@
 body {
-    margin: 0px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-h1 {
-    text-align: center;
-    font-size: 20px;
-    color: blue;
-}
-.logintittle {
-    text-align: center;
-    font-size: 20px;
-    color: yellow;
-}
-.forgetwelcome{
-    text-align: center;
-    font-size: 20px;
-    color: violet;
-}
-.forgetwelcomeback {
-    text-align: center;
-    font-size: 20px;
-    color: blueviolet;
-}
-.loginback {
-    text-align: center;
-    font-size: 20px;
-    color: yellowgreen;
-}
-
-h1{
-    padding: 3px;
-    background-color: black;
-}
-
-h2{
-    padding-top: 50px;
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
     text-align: center;
 }
-.welcomeset
-{
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
     text-align: center;
-    display: block;
-    margin: auto;
-    width: 50%;
-
+    background-color: #444;
+    margin: 0;
 }
 
-
-
-
-p {
-    color: #666;
-    line-height: 1.6;
+nav ul li {
+    display: inline;
+    margin: 0 10px;
 }
 
-buttonn {
-    margin: 5px;
-    /* this is used for giving a distance between two options */
-    padding: 10px 50px;
-    /* this is used as height width like as */
-    
-    border-radius: 1000px;
-    /* this is for giving a best shape to your buttom border */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
     background-color: red;
-    /* this is for changing background color of submit button */
-    color: blue;
-    /* this is for changing text color of submit button */
-    cursor: pointer;
-    /* this is for changing cursor status if put progress then if you move your cursor to submit button then this will show progress icon */
+    border-radius: 5px;
 }
 
-button:hover {
-    background-color: green; 
-    /* this is for changing backround color of clicking */
-}
-/* @keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
-    {background-color: blue;}
-    to {background-color:  pink;}
-    to {background-color: green;}
-    :-moz-any-link
+main {
+    padding: 2em;
+    margin: 1em 0;
 }
 
-.welcome-container {
-    animation-name: example;
-    animation-duration: 60s;
-} this all tag are used to give animation for any element you want*/
+.content-section {
+    background-color: white;
+    padding: 2em;
+    margin: 1em 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-.loginhead{
+.hidden {
+    display: none;
+}
+
+footer {
     text-align: center;
-    border-style: dotted;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
 }
- .forloginf{
-    text-align: center;
-    display: block;
-    margin: auto;
-    width: 50%;
- }
- 
- .forforget{
-    text-align: center;
-    border-style: dotted;
- }
- .welcomebacktittle
-
-    { 
-        text-align: center;
-        border-style: dotted
-        ;
-        
-    }
-    .loginbackbutton
-    {
-        text-align: center;
-        display: block;
-        margin: auto;
-    }

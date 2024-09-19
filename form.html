@@ -6,171 +6,95 @@
     <title>Registration form</title>
     <link rel="stylesheet" href="styelcss.css/stylesheetforform.css" />
   </head>
-  <body>
+  <body background="/backgroundimage.jpeg">
     <!-- <h1>Welcome to LifeSolution Pvt. Ltd. Global</h1> -->
 
-    <br />
-    <br />
-    <h2>Registration Form</h2>
+    <div class="controlnameregistration"><h2>Registration Form</h2></div>
 
-    <label for="disclaimer"></label>
+    <br />
 
     <div class="div1">
       <fieldset class="fieldset1">
-        <legend>
-          <input
-            type="text"
-            name="name"
-            id="disclaimer"
-            placeholder=" !All mandetory fields marked as *"
-            readonly
-            size="30"
-          />
+        <legend class="controlnamelegend">
+          <!-- <div class="controlnamefill">Fil l this field carefully</div> -->
         </legend>
         <br />
 
-        <form action="form_nextstep.html" method="get">
-          Full Name:
+        <form action="form_nextstep.html" method="get" class="controlnameforms">
+          First Name:
           <input
             type="text"
-            class="firstname"
+            class="controlnamenames"
             name="firstname"
             placeholder="First name*"
             required
-            size="8"
+            size="18"
           />
+          <br /><br>
+          Last Name:
           <input
             type="text"
-            class="lastname"
+            class="controlnamenames"
             name="lastname"
             placeholder="Last name*"
-            size="8"
+            size="18"
             required
           />
           <br /><br />
           Email Address:
           <input
             type="email"
-            class="email"
+            class="controlnamenames"
             name="email"
             placeholder="ex-demo@gmail.com*"
             required
+            size="16"
           /><br /><br />
 
           Phone Number:
           <input
             type="tel"
             name="name"
-            class="number"
+            class="controlnamenames"
             placeholder="Ex-0987612345*"
             required
             minlength="10"
             maxlength="10"
             pattern="/d{*}"
+            size="15"
           /><br /><br />
-
-          Select Gender:
-          <input
-            type="radio"
-            class="radio"
-            id="male"
-            name="gender"
-            required
-            checked
-          />
-          <label for="male">Male</label>
-          <input
-            type="radio"
-            class="radio"
-            id="female"
-            name="gender"
-            required
-          />
-          <label for="female">Female</label><br /><br />
-
-          <!-- Birth date:
-          <input
-            type="date"
-            class="birthday"
-            name="birthday"
-            value="**-**-****"
-            min="1990-01-01"
-            required
-            max="2023-01-01"
-          /> -->
 
           Social profile:
           <input
             type="url"
             name="link"
             id=""
-            class="sociallink"
-            placeholder="insert valid link of any platform*"
+            class="controlnamenames"
+            placeholder="Insert platform link*"
             required
-            size="25%"
+            size="17"
           /><br /><br />
 
-          Address: <br />
-          <input
-            type="text"
-            class="name2"
-            name="street"
-            placeholder="Name"
-            size="22%"
-            required
-          />
-          <input
-            type="number"
-            class="number2"
-            placeholder="10-digit mobile number"
-            size="25%"
-            required
-          /><br /><br />
-
+          Alternate No:
           <input
             type="tel"
-            class="pincode"
-            name="pincode"
+            class="controlnamenames"
+            name="phone"
+            placeholder="Alternate Phone (optional)"
             pattern="/d{*}"
-            placeholder="Pincode"
-            required
-          />
-          <input
-            type="text"
-            class="localty"
-            name="localty"
-            placeholder="Localty"
-            required
+            minlength="10"
+            maxlength="10"
+            size="17"
           />
           <br /><br />
 
-          <textarea
-            name="street"
-            id="street"
-            style="
-              width: 350px;
-              height: 65px;
-              padding: 10px;
-              font-size: 16px;
-              color: #888;
-            "
-            placeholder="Street and Area"
-            required
-            maxlength="100"
-          ></textarea>
-          <br /><br />
+          Select Your State:
 
-          <input
-            type="text"
-            class="district"
-            name="city/district/town"
-            placeholder="city/district/town"
-            required
-          />
-
-          <select name="state" id="state" width="75px">
+          <select name="state" id="state" class="controlnamenames" required>
             State
-            <option value="#">--State--</option>
+            <option value="#" aria-required="true">
+              State------------------
+            </option>
             <option value="andhrapradesh">Andhra Pradesh</option>
             <option value=" uttarpradesh">Uttar Pradesh</option>
             <option value="madhyapradesh">Madhya pradesh</option>
@@ -194,30 +118,110 @@
           </select>
           <br /><br />
 
+          Select Gender:
+          <input
+            type="radio"
+            class="controlnamenames"
+            id="male"
+            name="gender"
+            required
+          />
+          <label for="male">Male</label>
+          <input
+            type="radio"
+            class="controlnamenames"
+            id="female"
+            name="gender"
+            required
+          />
+          <label for="female">Female</label><br /><br />
+
+          <!-- Birth date:
+          <input
+            type="date"
+            class="birthday"
+            name="birthday"
+            value="**-**-****"
+            min="1990-01-01"
+            required
+            max="2023-01-01"
+          /> -->
+          <!-- 
+          Address: <br />
+          <input
+            type="text"
+            class="controlnamenames"
+            name="street"
+            placeholder="Name"
+            size="22%"
+            required
+          />
+          <input
+            type="number"
+            class="controlnamenames"
+            placeholder="10-digit mobile number"
+            size="25%"
+            required
+          /><br /><br />
+
+          <input
+            type="tel"
+            class="controlnamenames"
+            name="pincode"
+            pattern="/d{*}"
+            placeholder="Pincode"
+            required
+          />
+          <input
+            type="text"
+            class="controlnamenames"
+            name="localty"
+            placeholder="Localty"
+            required
+          />
+          <br /><br />
+
+          <textarea
+            name="street"
+            class="controlnamenames"
+            id="street"
+            style="
+              width: 350px;
+              height: 65px;
+              padding: 10px;
+              font-size: 16px;
+              color: #888;
+            "
+            placeholder="Street and Area"
+            required
+            maxlength="100"
+          ></textarea>
+          <br /><br />
+
+          <input
+            type="text"
+            class="controlnamenames"
+            name="city/district/town"
+            placeholder="city/district/town"
+            required
+          /> -->
+          <br /><br />
+          <!-- 
           <input
             type="address"
-            class="address1"
+            class="controlnamenames"
             name="address"
             placeholder="Landmark (optional)"
             maxlength="30"
-          />
-          <input
-            type="tel"
-            class="tel1"
-            name="phone"
-            placeholder="Alternate Phone (optional)"
-            pattern="/d{*}"
-            minlength="10"
-            maxlength="10"
-          />
-
+          /> -->
+          <!-- 
           <br /><br />address type:
 
           <input
             type="radio"
             name="home"
             id="home1"
-            class="home"
+            class="controlnamenames"
             value="home"
           />
           <label for="home1">Home</label>
@@ -225,26 +229,27 @@
             type="radio"
             name="home"
             id="work1"
-            class="home"
+            class="controlnamenames"
             value="work"
           />
           <label for="work1">Work</label>
 
           <br /><br />
-
+ -->
           <input
             type="checkbox"
             name="whatsappupdate"
             id="whatsapp"
             value="whatsappupdate"
+            class="controlnamenames"
           />
           <label for="whatsapp">Want to receives updates in whatsapp</label
           ><br />
 
           <br /><br />
 
-          <button type="reset">Reset</button>
-          <button>Next</button>
+          <button type="reset" class="controlnamereset">Reset</button>
+          <button class="controlnamereset">Next</button>
         </form>
       </fieldset>
     </div>

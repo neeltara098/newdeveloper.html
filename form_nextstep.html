@@ -6,33 +6,26 @@
     <title>next_step</title>
     <link rel="stylesheet" href="/styelcss.css/stylesheetforform.css" />
   </head>
-  <body>
+  <body background="/backgroundimage.jpeg">
     <!-- <h1>Welcome to LifeSolution Pvt. Ltd. Global</h1> -->
-    <h2>Thanks for joining our community</h2>
+   <div class="controlnameregistration"><h2>Thanks for joining our community</h2></div>
 
-    <div class="2">
-      <fieldset class="fieldset2">
-        <legend>
-          <input
-            type="text"
-            class="username"
-            placeholder="let's create your username and password"
-            size="35"
-            readonly
-          />
-        </legend>
-        <form action="login.html" method="get">
+    <div class="div1">
+      <fieldset class="fieldset1">
+       
+        <form action="login.html" method="get" class="controlnameforms">
           <br />
-          <label for="usernamee">Username:</label>
+          <label for="usernamee"> Create Username:</label>
           <input
             type="text"
             id="usernamee"
-            class="usernameee"
+            class="controlnamenames"
             name="username"
             placeholder="Ex-demoname_098"
             minlength="6"
             maxlength="20"
             required
+            size="14"
           /><br /><br />
 
           <label for="usernamepassword">Create password:</label>
@@ -40,10 +33,11 @@
             type="password"
             name="usernamepassword"
             id="usernamepassword"
-            class="usernamepassword"
+            class="controlnamenames"
             placeholder="Ex-!@Demopass#245/"
             minlength="8"
             maxlength="15"
+            size="14"
             required
           /><br /><br />
 
@@ -52,34 +46,38 @@
             type="password"
             name="usernamepassword"
             id="usernamepassword"
-            class="usernamepassword"
+            class="controlnamenames"
             placeholder="!@Demopass#245/"
             minlength="8"
             maxlength="15"
             required
+            size="14"
           /><br /><br />
 
-          security_question: <br />
+          Security_Q.A <br />
           <select
             name="security_question"
             id="security_question"
-            class="security_question"
+            class="controlnamenames"
             required
+            
           >
+            <option value="#">Please select one</option>
             <option value="petname">Name of your first pet?</option>
             <option value="schoolname">Name of your last school?</option>
             <option value="sistername">Father/spouse name?</option>
             <option value="bossname">Your first boss name?</option>
             <option value="selfkey">Tell your self keygen</option>
           </select>
-
+<br>
           <input
             type="text"
-            class="inputyouranswer"
+            class="controlnamenames"
             name="inputanswer"
             placeholder="input your answer"
             required
             maxlength="30"
+            
           /><br /><br />
 
           <input
@@ -92,17 +90,7 @@
           <label for="mysterygift">Want free mystery box from us</label>
           <br /><br />
 
-          <label for="mysterygiftinput1"></label>
-          <textarea
-            name="mysterygiftinput"
-            cols="30"
-            rows="10"
-            placeholder="For participeting in our free mysterygift contest here you will tell one interesting fact about you our team will review your fact if your fact is selected we will contact you shortly for free gift!"
-          ></textarea>
-
-          <br /><br /><br />
-
-          <button>Let's begin the journey</button>
+          <button class="controlnamereset">Let's Begin</button>
         </form>
       </fieldset>
     </div>

@@ -4,43 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>forget password</title>
-    <link rel="stylesheet" href="styelcss.css/stylefnext.css" />
+    <link rel="stylesheet" href="styelcss.css/stylesheetforform.css" />
   </head>
-  <body>
+  <body background="/backgroundimage.jpeg">
     <!-- <h1 class="forgetwelcome">Welcome to LifeSolution Pvt. Ltd. Global</h1> -->
-    <h2 class="forforgeth2">Forget password using account details.</h2>
+    <div class="controlnameregistration"><h2 class="forforgeth2">Forget password using account details.</h2></div>
     <br /><br />
-    <fieldset class="forloginf">
-      <legend>
-        <input
-          type="text"
-          class="forforget"
-          name="forforget"
-          placeholder="Enter your account details to forget your password"
-          size="45"
-          readonly
-        />
-      </legend>
-      <br />
+    
+    <div class="div1">
 
-      <form action="welcomeback.html" method="get">
-        Full Name:
+    <fieldset class="fieldset1">
+      
+      <form action="welcomeback.html" method="get" class="controlnameforms">
+        First Name:
         <input
           type="text"
-          class="loginnamefirst"
+          class="controlnamenames"
           name="forgetname"
-          placeholder="First Name"
+          placeholder="First Name*"
           required
-          size="8"
-        />
-
+          size="15"
+        /> <br><br>
+        Last Name:
         <input
           type="text"
-          class="loginnamelast"
+          class="controlnamenames"
           name="forgetname"
-          placeholder="Last Name"
+          placeholder="Last Name*"
           required
-          size="8"
+          size="15"
         />
         <br /><br />
 
@@ -51,6 +43,7 @@
           id="forforgetemail"
           value="forgetemail"
           required
+          class="controlnamenames"
         />
         <label for="forforgetemail">Email</label>
         <input
@@ -59,32 +52,35 @@
           id="forforgetphone"
           value="forgetphone"
           required
+          class="controlnamenames"
         />
         <label for="forforgetphone">Phone</label> <br /><br />
 
         <label for="verificationinput">Email/phone:</label>
-        <input
+       <br><input
           type="text"
           id="verificationinput"
           name="email/phone"
-          placeholder="Enter your email or phone"
+          placeholder="Enter your email or phone*"
           required
+          class="controlnamenames"
         /><br /><br />
 
         <label for="verificationinputotp">Enter otp:</label>
-        <input
+        <br><input
           type="tel"
           id="verificationinputotp"
           name="email/phone"
-          placeholder="6-digit otp"
+          placeholder="6-digit otp*"
           required
           size="8"
           minlength="6"
           maxlength="6"
+          class="controlnamenames"
         />
         <br /><br />
 
-        <button>Next</button>
+        <button class="controlnamereset">Next</button>
       </form>
     </fieldset>
   </body>
