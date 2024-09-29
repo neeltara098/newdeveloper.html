@@ -3,51 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website with Dynamic Sections</title>
+    <title>Toggle Menu</title>
     <link rel="stylesheet" href="styelcss.css/stylefnext.css">
 </head>
 <body>
-    <header>
-        <h1>My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#" onclick="showSection('about')">About Me</a></li>
-                <li><a href="#" onclick="showSection('portfolio')">Portfolio</a></li>
-                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="about" class="content-section">
-            <h2>About Me</h2>
-            <p>This is where you can write about yourself.</p>
-        </section>
-        <section id="portfolio" class="content-section hidden">
-            <h2>Portfolio</h2>
-            <p>Showcase your work here.</p>
-        </section>
-        <section id="contact" class="content-section hidden">
-            <h2>Contact</h2>
-            <p>Provide your contact details here.</p>
-        </section>
-    </main>
-    <footer>
-        <p>© 2024 My Personal Website</p>
-    </footer>
-    <script>
-        function showSection(sectionId) {
-    // Hide all sections
-     var sections = document.querySelectorAll('.content-section');
-    sections.forEach(function(section) {
-        section.classList.add('hidden');
-     });
-
-    // Show the selected section
-    var sectionToShow = document.getElementById(sectionId);
-    sectionToShow.classList.remove('hidden');
-}
-
-// document. querySelectorAll('style,link[rel="stylesheet"]') .forEach (e=> e.remove());
-    </script>
+    <button id="menu-toggle"><input type="checkbox"></button>
+    <nav id="menu" class="hidden">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="script.script.js/script.js"></script>
+    <p> *elonmuscs
+    </p>
 </body>
 </html>
